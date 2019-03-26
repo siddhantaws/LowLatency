@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.riverstone</groupId>
+  <artifactId>JINTWORK</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>JINTWORK</name>
+  <url>http://maven.apache.org</url>
+
+  <modules>
+		<module>DesignImplementationTechniques</module>
+		<module>DynamicCompilation</module>
+		<module>GeneralProgramming</module>
+		<module>InputOutput</module>
+		<module>JavaContainers</module>
+		<module>JDBC</module>
+		<module>Network</module>
+		<module>NIOMultiplexer</module>
+		<module>Rest</module>
+		<module>RMI</module>
+		<module>Samples</module>
+		<module>SpringBasics</module>
+		<module>UtilClasses</module>
+	</modules>
+	
+	
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+	
+</project>

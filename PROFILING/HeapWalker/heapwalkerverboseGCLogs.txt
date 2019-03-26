@@ -1,0 +1,7 @@
+OpenJDK 64-Bit Server VM (25.77-b03) for linux-amd64 JRE (1.8.0_77-b03), built on Oct  2 2016 21:15:53 by "mohit" with gcc 5.4.0 20160609
+Memory: 4k page, physical 16338540k(7287656k free), swap 17576956k(17576956k free)
+CommandLine flags: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=. -XX:InitialHeapSize=261416640 -XX:MaxHeapSize=629145600 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+25.458: [GC (Allocation Failure) -- 431213K->431237K(484352K), 0.0106982 secs]
+25.468: [Full GC (Ergonomics)  431237K->25272K(164864K), 0.0192133 secs]
+25.488: [GC (Allocation Failure)  25272K->25272K(484352K), 0.0006166 secs]
+25.489: [Full GC (Allocation Failure)  25272K->24903K(276480K), 0.0239486 secs]

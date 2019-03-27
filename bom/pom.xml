@@ -15,6 +15,7 @@
 		<module>../JAVA8</module>
 		<module>../LowLatencyQueues</module>
 		<module>../PROFILING</module>
+		<module>../disruptor</module>
 	</modules>
 
 	<properties>

@@ -53,7 +53,7 @@
                     <name>AffinityLibrary</name>
                 </property>
             </activation>
-            <!--<build>
+            <build>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -76,7 +76,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
-            </build>-->
+            </build>
         </profile>
         <profile>
             <id>AffinityWithExecutors</id>
@@ -85,7 +85,7 @@
                     <name>AffinityWithExecutors</name>
                 </property>
             </activation>
-            <!--<build>
+            <build>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -108,7 +108,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
-            </build>-->
+            </build>
         </profile>
     </profiles>
 

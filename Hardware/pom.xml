@@ -18,8 +18,8 @@
 		<module>FalseSharingCacheLine</module>
 		<module>HardwareBasedQueues</module>
 		<module>HardwareOptimization</module>
-		<module>HPCandBranches</module>
-		<module>MemoryAccessOptimizations8</module>
+		<!--<module>HPCandBranches</module>-->
+		<!--<module>MemoryAccessOptimizations8</module>-->
 		<module>MemoryAllignment</module>
 		<module>MicroJitters</module>
 		<module>ProcessorAffinity</module>

@@ -34,7 +34,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <!--&lt;!&ndash;<executions>
+                <executions>
                     <execution>
                         <phase>generate-sources</phase>
                         <goals>
@@ -52,8 +52,8 @@
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
-                    </execution>&ndash;&gt;
-                </executions>-->
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

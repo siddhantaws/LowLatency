@@ -11,5 +11,8 @@
 
     <modules>
         <module>jmh</module>
+        <module>ObjectSize</module>
+        <module>jcstress</module>
+        <module>CollectionTest</module>
     </modules>
 </project>

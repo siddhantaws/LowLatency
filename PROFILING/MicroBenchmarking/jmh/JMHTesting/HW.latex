@@ -1,0 +1,52 @@
+\begin{tabular}{r|l|l|rl}
+ \multicolumn{1}{c|}{\texttt{Benchmark}} & \texttt{memorysize} & \texttt{stride} & \multicolumn{2}{c}{\texttt{Score, s/op}} \\
+\hline
+\texttt{MemoryTest.bench} & \texttt{1} & \texttt{7} & \texttt{0.041} &  \\
+\texttt{MemoryTest.bench} & \texttt{1} & \texttt{31} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{2} & \texttt{7} & \texttt{0.042} &  \\
+\texttt{MemoryTest.bench} & \texttt{2} & \texttt{31} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{4} & \texttt{7} & \texttt{0.042} &  \\
+\texttt{MemoryTest.bench} & \texttt{4} & \texttt{31} & \texttt{0.044} &  \\
+\texttt{MemoryTest.bench} & \texttt{8} & \texttt{7} & \texttt{0.052} &  \\
+\texttt{MemoryTest.bench} & \texttt{8} & \texttt{31} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{16} & \texttt{7} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{16} & \texttt{31} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{32} & \texttt{7} & \texttt{0.043} &  \\
+\texttt{MemoryTest.bench} & \texttt{32} & \texttt{31} & \texttt{0.042} &  \\
+\texttt{MemoryTest.bench} & \texttt{64} & \texttt{7} & \texttt{0.105} &  \\
+\texttt{MemoryTest.bench} & \texttt{64} & \texttt{31} & \texttt{0.120} &  \\
+\texttt{MemoryTest.bench} & \texttt{128} & \texttt{7} & \texttt{0.108} &  \\
+\texttt{MemoryTest.bench} & \texttt{128} & \texttt{31} & \texttt{0.126} &  \\
+\texttt{MemoryTest.bench} & \texttt{256} & \texttt{7} & \texttt{0.110} &  \\
+\texttt{MemoryTest.bench} & \texttt{256} & \texttt{31} & \texttt{0.124} &  \\
+\texttt{MemoryTest.bench} & \texttt{512} & \texttt{7} & \texttt{0.142} &  \\
+\texttt{MemoryTest.bench} & \texttt{512} & \texttt{31} & \texttt{0.143} &  \\
+\texttt{MemoryTest.bench} & \texttt{1024} & \texttt{7} & \texttt{0.141} &  \\
+\texttt{MemoryTest.bench} & \texttt{1024} & \texttt{31} & \texttt{0.185} &  \\
+\texttt{MemoryTest.bench} & \texttt{2048} & \texttt{7} & \texttt{0.145} &  \\
+\texttt{MemoryTest.bench} & \texttt{2048} & \texttt{31} & \texttt{0.187} &  \\
+\texttt{MemoryTest.bench} & \texttt{3072} & \texttt{7} & \texttt{0.140} &  \\
+\texttt{MemoryTest.bench} & \texttt{3072} & \texttt{31} & \texttt{0.186} &  \\
+\texttt{MemoryTest.bench} & \texttt{4096} & \texttt{7} & \texttt{0.140} &  \\
+\texttt{MemoryTest.bench} & \texttt{4096} & \texttt{31} & \texttt{0.187} &  \\
+\texttt{MemoryTest.bench} & \texttt{6144} & \texttt{7} & \texttt{0.141} &  \\
+\texttt{MemoryTest.bench} & \texttt{6144} & \texttt{31} & \texttt{0.183} &  \\
+\texttt{MemoryTest.bench} & \texttt{8192} & \texttt{7} & \texttt{0.179} &  \\
+\texttt{MemoryTest.bench} & \texttt{8192} & \texttt{31} & \texttt{0.228} &  \\
+\texttt{MemoryTest.bench} & \texttt{16384} & \texttt{7} & \texttt{0.202} &  \\
+\texttt{MemoryTest.bench} & \texttt{16384} & \texttt{31} & \texttt{0.316} &  \\
+\texttt{MemoryTest.bench} & \texttt{32768} & \texttt{7} & \texttt{0.220} &  \\
+\texttt{MemoryTest.bench} & \texttt{32768} & \texttt{31} & \texttt{0.394} &  \\
+\texttt{MemoryTest.bench} & \texttt{65536} & \texttt{7} & \texttt{0.231} &  \\
+\texttt{MemoryTest.bench} & \texttt{65536} & \texttt{31} & \texttt{0.362} &  \\
+\texttt{MemoryTest.bench} & \texttt{131072} & \texttt{7} & \texttt{0.312} &  \\
+\texttt{MemoryTest.bench} & \texttt{131072} & \texttt{31} & \texttt{0.462} &  \\
+\texttt{MemoryTest.bench} & \texttt{262144} & \texttt{7} & \texttt{0.439} &  \\
+\texttt{MemoryTest.bench} & \texttt{262144} & \texttt{31} & \texttt{0.618} &  \\
+\texttt{MemoryTest.bench} & \texttt{524288} & \texttt{7} & \texttt{0.444} &  \\
+\texttt{MemoryTest.bench} & \texttt{524288} & \texttt{31} & \texttt{0.638} &  \\
+\texttt{MemoryTest.bench} & \texttt{1048576} & \texttt{7} & \texttt{0.437} &  \\
+\texttt{MemoryTest.bench} & \texttt{1048576} & \texttt{31} & \texttt{0.666} &  \\
+\texttt{MemoryTest.bench} & \texttt{2097152} & \texttt{7} & \texttt{0.431} &  \\
+\texttt{MemoryTest.bench} & \texttt{2097152} & \texttt{31} & \texttt{0.641} &  \\
+\end{tabular}

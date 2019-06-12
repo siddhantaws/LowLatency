@@ -1,0 +1,58 @@
+<h1>org.openjdk.jcstress.tests.fences.FencedAcquireReleaseTest</h1>
+<p>null</p>
+<table width=100%>
+<tr>
+<th width=250>Observed state</th>
+<th width=50>Occurrence</th>
+<th width=50>Expectation</th>
+<th>Interpretation</th>
+</tr>
+<tr bgColor=#00ff00>
+<td>[0, 0]</td>
+<td align=center>67807955</td>
+<td align=center>ACCEPTABLE</td>
+<td>Before observing releasing write to, any value is OK for $x.</td>
+</tr>
+<tr bgColor=#00ff00>
+<td>[0, 1]</td>
+<td align=center>199</td>
+<td align=center>ACCEPTABLE</td>
+<td>Before observing releasing write to, any value is OK for $x.</td>
+</tr>
+<tr bgColor=#00ff00>
+<td>[0, 2]</td>
+<td align=center>2056840</td>
+<td align=center>ACCEPTABLE</td>
+<td>Before observing releasing write to, any value is OK for $x.</td>
+</tr>
+<tr bgColor=#00ff00>
+<td>[0, 3]</td>
+<td align=center>7255968</td>
+<td align=center>ACCEPTABLE</td>
+<td>Before observing releasing write to, any value is OK for $x.</td>
+</tr>
+<tr bgColor=#ff0000>
+<td>[1, 0]</td>
+<td align=center>75</td>
+<td align=center>FORBIDDEN</td>
+<td>Can not read the default or old value for $x after $y is observed.</td>
+</tr>
+<tr bgColor=#c0c0c0>
+<td>[1, 1]</td>
+<td align=center>0</td>
+<td align=center>FORBIDDEN</td>
+<td>Can not read the default or old value for $x after $y is observed.</td>
+</tr>
+<tr bgColor=#00ff00>
+<td>[1, 2]</td>
+<td align=center>1008254</td>
+<td align=center>ACCEPTABLE</td>
+<td>Can see a released value of $x if $y is observed.</td>
+</tr>
+<tr bgColor=#00ff00>
+<td>[1, 3]</td>
+<td align=center>149880609</td>
+<td align=center>ACCEPTABLE</td>
+<td>Can see a released value of $x if $y is observed.</td>
+</tr>
+</table>

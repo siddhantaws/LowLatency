@@ -19,6 +19,7 @@
 		<module>JMC</module>
 		<module>JNICrash</module>
 		<!--<module>JNILibrary</module>-->
+      <module>MicroBenchmarking</module>
 		<module>NIOMultiplexer</module>
 		<module>ObjectSizeandLayout</module>
 		<module>ProfilingIntroduction</module>

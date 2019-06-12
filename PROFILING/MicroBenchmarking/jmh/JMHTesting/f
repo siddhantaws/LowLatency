@@ -1,0 +1,59 @@
+# JMH 1.10.5 (released 24 days ago)
+# VM version: JDK 1.8.0_20, VM 25.20-b23
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.mk.training.jmhtests.JMHSample_01_HelloWorld.wellHelloThere
+
+# Run progress: 0.00% complete, ETA 00:00:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 2465588223.037 ops/s
+# Warmup Iteration   2: 2428988029.427 ops/s
+# Warmup Iteration   3: 2482524772.338 ops/s
+# Warmup Iteration   4: 2479621734.028 ops/s
+# Warmup Iteration   5: 2480069787.730 ops/s
+Iteration   1: 2478615101.046 ops/s
+Iteration   2: 2482758937.070 ops/s
+Iteration   3: 2478692687.866 ops/s
+Iteration   4: 2480895702.965 ops/s
+Iteration   5: 2478996469.983 ops/s
+
+# Run progress: 20.00% complete, ETA 00:00:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 2469555651.921 ops/s
+# Warmup Iteration   2: 2484357627.961 ops/s
+# Warmup Iteration   3: 2484782160.689 ops/s
+# Warmup Iteration   4: 2484558485.966 ops/s
+# Warmup Iteration   5: 2481798651.597 ops/s
+Iteration   1: 2486056468.058 ops/s
+Iteration   2: 2483339021.038 ops/s
+Iteration   3: 2484604066.429 ops/s
+Iteration   4: 2482770591.348 ops/s
+Iteration   5: 2484783282.880 ops/s
+
+# Run progress: 40.00% complete, ETA 00:00:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 2472970935.727 ops/s
+# Warmup Iteration   2: 2480980681.240 ops/s
+# Warmup Iteration   3: 2487615777.095 ops/s
+# Warmup Iteration   4: 2486026037.737 ops/s
+# Warmup Iteration   5: 2488852818.849 ops/s
+Iteration   1: 2489267732.064 ops/s
+Iteration   2: 2492411472.097 ops/s
+Iteration   3: 2486268914.055 ops/s
+Iteration   4: 2477844896.377 ops/s
+Iteration   5: 2487090837.548 ops/s
+
+# Run progress: 60.00% complete, ETA 00:00:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 2471183484.044 ops/s
+# Warmup Iteration   2: 2472488121.035 ops/s
+# Warmup Iteration   3: 2483784396.774 ops/s
+# Warmup Iteration   4: 2483198561.111 ops/s
+# Warmup Iteration   5: 2484022229.729 ops/s
+Iteration   1: 2482055986.197 ops/s
+Iteration   2: <failure: VM prematurely exited before JMH had finished with it, explicit System.exit was called?>

@@ -57,7 +57,7 @@ public class JMHSample_08_DeadCode {
 
     private double x = Math.PI;
 
-    @Benchmark
+    /*@Benchmark
     public void baseline() {
         // do nothing, this is a baseline
     }
@@ -66,9 +66,11 @@ public class JMHSample_08_DeadCode {
     public void measureWrong() {
         // This is wrong: result is not used and the entire computation is optimized away.
         Math.log(x);
-    }
+    }*/
 
     @Benchmark
+    @Warmup(iterations = 10000)
+    @Measurement(iterations = 50)
     public double measureRight() {
         // This is correct: the result is being used.
         return Math.log(x);
@@ -95,8 +97,6 @@ public class JMHSample_08_DeadCode {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(JMHSample_08_DeadCode.class.getSimpleName())
-                .warmupIterations(5)
-                .measurementIterations(5)
                 .forks(1)
                 .build();
 

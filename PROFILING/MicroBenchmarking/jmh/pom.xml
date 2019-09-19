@@ -163,7 +163,9 @@ questions.
         <module>jmh-generator-asm</module>
         <module>jmh-generator-bytecode</module>
         <module>jmh-generator-reflection</module>
+<!--
         <module>jmh-archetypes</module>
+-->
         <module>JMHTesting</module>
     </modules>
 

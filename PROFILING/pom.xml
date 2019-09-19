@@ -20,6 +20,7 @@
 		<module>JNICrash</module>
 		<!--<module>JNILibrary</module>-->
       <module>MicroBenchmarking</module>
+      <module>high-scale-lib</module>
 		<module>NIOMultiplexer</module>
 		<module>ObjectSizeandLayout</module>
 		<module>ProfilingIntroduction</module>
